@@ -9,6 +9,7 @@ Create a production grade cluster:
 Install the following:
 - [vagrant](https://developer.hashicorp.com/vagrant/downloads)
 - [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
+- [GitBash](https://git-scm.com/downloads)
 
 
 ```shell
