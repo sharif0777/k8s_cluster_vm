@@ -14,7 +14,10 @@ Install the following:
 
 ```shell
 $ git clone https://github.com/sharif0777/k8s_cluster_vm.git
-$ cd k8s_cluster_vm.git
+$ cd k8s_cluster_vm
+
+Change Master and Node IP Address in Vagrantfile, After That.....
+
 $./run.sh
 ```
 
