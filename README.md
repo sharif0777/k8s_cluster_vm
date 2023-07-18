@@ -4,6 +4,10 @@ Create a production grade cluster:
 - 1 control
 - 2 worker
 
+Added :
+- 1 Calico
+- 2 Metrics Server
+
 ## Quickstart
 
 Install the following:

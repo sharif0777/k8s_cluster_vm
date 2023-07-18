@@ -36,6 +36,7 @@ Vagrant.configure("2") do |config|
       SHELL
     control.vm.provision "shell", inline: "mkdir /home/vagrant/.kube && cp /etc/kubernetes/admin.conf /home/vagrant/.kube/config && chown -R vagrant:vagrant /home/vagrant/.kube"
     control.vm.provision "shell", path: "script/install_calico.sh"
+    control.vm.provision "shell", path: "script/install_calico.sh"
   end
 
   
@@ -62,7 +63,7 @@ Vagrant.configure("2") do |config|
       end
       workernode.vm.provision "shell", path: "script/install.sh"
       workernode.vm.provision 'shell', reboot: true
-      workernode.vm.provision "shell", path: "script//join.sh"
+      workernode.vm.provision "shell", path: "script/join.sh"
     end
   end
 
